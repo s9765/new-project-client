@@ -1,0 +1,8 @@
+<div *ngIf="newsService.myNew!=null">
+    <div id="topics">
+        <h2>נושא</h2>
+        <h3>{{newsService.myNew.title}}</h3>
+    </div>
+    <p >{{newsService.myNew.body}}</p>
+    <a href="{{newsService.myNew.link}}" target="_blank">קרא עוד</a>
+</div>
